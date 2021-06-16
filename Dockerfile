@@ -2,5 +2,4 @@ FROM nginx
 
 EXPOSE 80
 
-ADD ./web /var/www/default/
-
+ADD ./web /usr/share/nginx/html
